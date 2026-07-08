@@ -1,0 +1,15 @@
+git status                                                                                                                                                                  
+git add .\testting.py                                                                                                                                                       
+git status                                                                                                                                                                  
+rm --cached .\testting.py                                                                                                                                               
+git status                                                                                                                                                                  
+git add .\testting.py                                                                                                                                                       
+git status                                                                                                                                                                  
+clear                                                                                                                                                                       
+git commit -m "added testing files"                                                                                                                                         
+git status                                                                                                                                                                  
+clear                                                                                                                                                                       
+rm .\testting.py                                                                                                                                                            
+git status                                                                                                                                                                  
+git restore testting.py                                                                                                                                                     
+git status 
