@@ -12,3 +12,5 @@
 9.  git push # we have the file in local and i need to push the changes into remote repository
 10. git remote -v   # to see the remote repository added or not 
 11. git remote set-url origin https:// paste token here@github.com/sanju-1625/github-for-devops # Access the github repository creating a token to setup the url.
+12. clone  # is nothing but clone means your github to local machine.
+13. fork  # fork is nothing but replica of the github for some one person git repository into your github you are copying in your githun the repository.
