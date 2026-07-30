@@ -1,7 +1,7 @@
+git status  # to see the status of the git                                                                                                                                                                 
+git add .\testting.py   # we adding the testing.py untracked to stagging area                                                                                                                                             
 git status                                                                                                                                                                  
-git add .\testting.py                                                                                                                                                       
-git status                                                                                                                                                                  
-rm --cached .\testting.py                                                                                                                                               
+rm --cached .\testting.py    # remvoing the testing.py file from local machine or in git                                                                                                                                          
 git status                                                                                                                                                                  
 git add .\testting.py                                                                                                                                                       
 git status                                                                                                                                                                  
@@ -11,5 +11,5 @@ git status
 clear                                                                                                                                                                       
 rm .\testting.py                                                                                                                                                            
 git status                                                                                                                                                                  
-git restore testting.py                                                                                                                                                     
+git restore testting.py          # restroing the testing.py file again when someone has deleted the file accidentally we can restore the file in git                                                                                                                                           
 git status 
