@@ -1,5 +1,6 @@
 
 **Git Commands to learn basic to advance in real time DevOps workspace.**
+
 git status *# to see the status of the commit.
 git add .\testting.py   # we adding the testing.py untracked to stagging area                                                                                                                                  
 git status                                                                                                                                                                  
