@@ -6,10 +6,10 @@ git status
 git add .\testting.py                                                                                                                                                       
 git status                                                                                                                                                                  
 clear                                                                                                                                                                       
-git commit -m "added testing files"                                                                                                                                         
+git commit -m "added testing files"    # It is used to save the changes in to local repository with a short message that describe the changes.                                                                                                                                  
 git status                                                                                                                                                                  
 clear                                                                                                                                                                       
-rm .\testting.py                                                                                                                                                            
+rm .\testting.py     #  Its removing the testing file for the local repository.                                                                                                                                               
 git status                                                                                                                                                                  
-git restore testting.py          # restroing the testing.py file again when someone has deleted the file accidentally we can restore the file in git                                                                                                                                           
+git restore testting.py      # restroing the testing.py file again when someone has deleted the file accidentally we can restore the file in git                                                                                                                                           
 git status 
