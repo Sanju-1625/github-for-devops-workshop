@@ -13,3 +13,4 @@ rm .\testting.py     #  Its removing the testing file for the local repository.
 git status                                                                                                                                                                  
 git restore testting.py      # restroing the testing.py file again when someone has deleted the file accidentally we can restore the file in git                                                                                                                                           
 git status 
+git pull  # its downloads the latest changes from the remote repository and updates the local repository.
