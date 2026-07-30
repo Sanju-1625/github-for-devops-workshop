@@ -20,5 +20,4 @@ git status
 git pull  # its downloads the latest changes from the remote repository and updates the local repository.
 git push # we have the file in local and i need to push the changes into remote repository
 git remote -v   # to see the remote repository added or not 
-git remote set-url origin https:// paste token here@github.com/sanju-1625/github-for-devops 
-# Access the github repository creating a token to setup the url.
+git remote set-url origin https:// paste token here@github.com/sanju-1625/github-for-devops # Access the github repository creating a token to setup the url.
