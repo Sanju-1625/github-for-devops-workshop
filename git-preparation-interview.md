@@ -6,3 +6,4 @@ Companies use Git because multiple developers work on the same project. Git help
 ---
 # Q3: What will happen if a company does not use Git?
 If a company does not use Git, multiple developers working on the same project may overwrite each other's code. It becomes difficult to track who made the changes and when they were made. There is no proper version history, so rolling back to a previous version is difficult. Collaboration between developers becomes harder, and managing the source code becomes messy. Git solves all these problems by providing version control and a central repository.
+---
