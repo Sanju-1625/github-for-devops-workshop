@@ -16,7 +16,10 @@ clone  # is nothing but clone means your github to local machine.
 fork  # fork is nothing but replica of the github for some one person git repository into your github you are copying in your githun the repository.
 Id CommandLine                                                                                                                                                                 
   -- -----------
-  how to learn hooks and pre-commmit on git which i was followed by me with the help of chatgpt.                                                                                                                                                  
+  how to learn hooks and pre-commmit on git which i was followed by me with the help of chatgpt.
+  beforw going to hooks we need to install the flake8 to test the code quality which required flake8 it will test code of the python files.
+  command is pip install flake8
+  python -m flake8 .\demo.py                                                                                                                                               
   13 dir .git                                                                                                                                                                    
   14 cd .git\hooks                                                                                                                                                               
   15 dir                                                                                                                                                                         
