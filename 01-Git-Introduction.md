@@ -87,11 +87,23 @@ Git introduction does not require any commands.
 ## Interview Questions
 
 1. What is Git?
+Git is a distributed version control system.
+It tracks changes in code and helps developers work together.
 
-2. Why do we use Git?
+3. Why do we use Git?
+We use Git to track code changes, manage different versions, and collaborate with team members.
 
-3. What is Version Control?
+5. What is Version Control?
+Version Control is a system that records changes to files over time.
+It helps us restore previous versions when needed.
 
-4. What are the advantages of Git?
+7. What are the advantages of Git?
+Tracks code changes.
+Supports team collaboration.
+Creates branches for new features.
+Maintains version history.
+Fast and distributed.
 
-5. What is DVCS?
+9. What is DVCS?
+DVCS stands for Distributed Version Control System.
+Every developer has a complete copy of the repository on their local system.
