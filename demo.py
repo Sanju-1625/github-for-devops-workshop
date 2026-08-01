@@ -1,7 +1,6 @@
-def my_function():
-    a = 5 
-    b = 6
+a = 10
+b = 20
 
-    return d
+result = a + b
 
-my_function()
+print("Result:", result)
