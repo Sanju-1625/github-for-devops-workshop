@@ -1,16 +1,60 @@
 
 **Git Commands to learn basic to advance in real time DevOps workspace.**
 
-1.  git status    # to see the status of the commit
-2.  git add .\testting.py   # we adding the testing.py untracked to stagging area                                                                                                                                                                                                                                                                                                
-3.  rm --cached .\testting.py    # remvoing the testing.py file from local machine or in git                                                                                                                                                                                                                                                                                                      
-4.  git add .\testting.py                                                                                                                                                       
-5.  git commit -m "added testing files"    # It is used to save the changes in to local repository with a short message that describe the changes.                                                                                                                                  
-6.  rm .\testting.py     #  Its removing the testing file for the local repository.                                                                                                                                     
-7.  git restore testting.py      # restroing the testing.py file again when someone has deleted the file accidentally we can restore the file in git                                                                                                                                           
-8.  git pull  # its downloads the latest changes from the remote repository and updates the local repository.
-9.  git push # we have the file in local and i need to push the changes into remote repository
-10. git remote -v   # to see the remote repository added or not 
-11. git remote set-url origin https:// paste token here@github.com/sanju-1625/github-for-devops # Access the github repository creating a token to setup the url.
-12. clone  # is nothing but clone means your github to local machine.
-13. fork  # fork is nothing but replica of the github for some one person git repository into your github you are copying in your githun the repository.
+git status    # to see the status of the commit
+git add .\testting.py   # we adding the testing.py untracked to stagging area                                                                                                                                                                                                                                                                                                
+rm --cached .\testting.py    # remvoing the testing.py file from local machine or in git                                                                                                                                                                                                                                                                                                      
+git add .\testting.py                                                                                                                                                       
+git commit -m "added testing files"    # It is used to save the changes in to local repository with a short message that describe the changes.                                                                                                                                  
+rm .\testting.py     #  Its removing the testing file for the local repository.                                                                                                                                     
+git restore testting.py      # restroing the testing.py file again when someone has deleted the file accidentally we can restore the file in git                                                                                                                                           
+git pull  # its downloads the latest changes from the remote repository and updates the local repository.
+git push # we have the file in local and i need to push the changes into remote repository
+git remote -v   # to see the remote repository added or not 
+git remote set-url origin https:// paste token here@github.com/sanju-1625/github-for-devops # Access the github repository creating a token to setup the url.
+clone  # is nothing but clone means your github to local machine.
+fork  # fork is nothing but replica of the github for some one person git repository into your github you are copying in your githun the repository.
+Id CommandLine                                                                                                                                                                 
+  -- -----------
+  how to learn hooks and pre-commmit on git which i was followed by me with the help of chatgpt.                                                                                                                                                  
+  13 dir .git                                                                                                                                                                    
+  14 cd .git\hooks                                                                                                                                                               
+  15 dir                                                                                                                                                                         
+  16 chmod 777 .\pre-commit
+  17 chmod 777 pre-commit                                                                                                                                                        
+  18 ls -l                                                                                                                                                                       
+  19 cd ..                                                                                                                                                                       
+  20 cd hooks                                                                                                                                                                    
+  21 ls                                                                                                                                                                          
+  22 touch pre-commit                                                                                                                                                            
+  23 ls                                                                                                                                                                          
+  24 .\pre-commit                                                                                                                                                                
+  25 ls
+  26 ls                                                                                                                                                                          
+  27 .\pre-commit                                                                                                                                                                
+  28 chmod 777 .\pre-commit                                                                                                                                                      
+  29 notepad .git\hooks\pre-commit                                                                                                                                               
+  30 git add .                                                                                                                                                                   
+  31 git commit -m "testing"                                                                                                                                                     
+  32 cd ..                                                                                                                                                                       
+  33 cd ..
+  34 git commit -m "testing"                                                                                                                                                     
+  35 history                                                                                                                                                                     
+  36 clear                                                                                                                                                                       
+  37 git commit -m "testing"                                                                                                                                                     
+  38 git add .\demo.py                                                                                                                                                           
+  39 git commit -m "changes"                                                                                                                                                     
+  40 git add .\demo.py
+  41 git commit -m "changes"                                                                                                                                                     
+  42 git add .\demo.py                                                                                                                                                           
+  43 git add .\testting.py                                                                                                                                                       
+  44 git commit -m "changes"                                                                                                                                                     
+  45 git commit -m "testing"
+  46 git add .\testting.py
+  47 git commit -m "testing"
+  48 git add .\testting.py                                                                                                                                                       
+  49 git commit -m "testing"
+  50 git commit -m "testing"
+  51 git add .\testting.py
+  52 git commit -m "testing"
+  53 git push origin master
