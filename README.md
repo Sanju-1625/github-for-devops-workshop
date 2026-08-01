@@ -1,3 +1,170 @@
+# Git Configuration
+
+## Configure Username
+
+```bash
+git config --global user.name "Sanju Kumar"
+```
+
+Verify
+
+```bash
+git config --global user.name
+```
+
+Expected Output
+
+```text
+Sanju Kumar
+```
+
+---
+
+## Configure Email
+
+```bash
+git config --global user.email "sanju@gmail.com"
+```
+
+Verify
+
+```bash
+git config --global user.email
+```
+
+Expected Output
+
+```text
+sanju@gmail.com
+```
+
+---
+
+## View All Configurations
+
+```bash
+git config --list
+```
+
+Expected Output
+
+```text
+user.name=Sanju Kumar
+user.email=sanju@gmail.com
+```
+# Git Branches
+
+## Check Current Branch
+
+```bash
+git branch
+```
+
+Expected Output
+
+```text
+* main
+```
+
+---
+
+## Create a New Branch
+
+```bash
+git branch feature-login
+```
+
+Verify
+
+```bash
+git branch
+```
+
+Expected Output
+
+```text
+* main
+  feature-login
+```
+
+---
+
+## Switch to Branch
+
+```bash
+git switch feature-login
+```
+
+Verify
+
+```bash
+git branch
+```
+
+Expected Output
+
+```text
+  main
+* feature-login
+```
+
+---
+
+## Create and Switch in One Command
+
+```bash
+git switch -c feature-payment
+```
+
+Verify
+
+```bash
+git branch
+```
+
+Expected Output
+
+```text
+  main
+  feature-login
+* feature-payment
+```
+
+---
+
+## Switch Back to Main
+
+```bash
+git switch main
+```
+
+Verify
+
+```bash
+git branch
+```
+
+Expected Output
+
+```text
+* main
+  feature-login
+  feature-payment
+```
+
+---
+
+## Delete Branch
+
+```bash
+git branch -d feature-login
+```
+
+Verify
+
+```bash
+git branch
+```
 # Pre-Commit Hook with Flake8
 
 ## Step 1: Create a New Project Folder
